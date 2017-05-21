@@ -25,7 +25,7 @@ public class Task1 {
 
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(IntWritable.class);
-		job.setNumReduceTasks(4);
+		//job.setNumReduceTasks(4);
 		job.setMapperClass(Task1Mapper.class);
 		job.setReducerClass(Task1Reducer.class);
 		 
